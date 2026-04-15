@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Outlet />   {/* 👈 pages will render here */}
+      <Outlet />   {/* pages will render here */}
     </div>
   );
 }
