@@ -1,5 +1,5 @@
 
-
+import { FaGithub } from "react-icons/fa";
 const Contact = () => {
   return (
     <div>
@@ -72,8 +72,9 @@ const Contact = () => {
                             <div class="pt-6">
                                 <h4 class="font-bold text-dark mb-4">Follow Me</h4>
                                 <div class="flex space-x-6">
-                                    <a href="#" class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-primary hover:text-white transition duration-300">
-                                        <i class="fab fa-github"></i>
+                                    <a href="https://github.com/ManjuAkther" class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-primary hover:text-white transition duration-300">
+                                        {/* <i class="fab fa-github"></i> */}
+                                        <FaGithub/>
                                     </a>
                                     <a href="#" class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-primary hover:text-white transition duration-300">
                                         <i class="fab fa-linkedin-in"></i>
